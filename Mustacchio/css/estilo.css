@@ -1,0 +1,132 @@
+/*inicio do css*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+body {
+	font-family: Arial;
+}	
+#cabecalho {
+	width: 90%;
+	min-height: 150px;
+	text-align: center;
+	margin: 0 auto;	
+}
+#publicidade {
+	width: 90%;
+	min-height: 554px;
+	margin: 0 auto;
+	background: #FFF url(../imagens/the-beacon.jpg) top center no-repeat;
+	background-size: cover;
+	padding-left: 40%;
+	padding-top: 170px;
+}
+.fundoBranco {
+	margin-top: 50px;
+	background: #FFF;
+	text-transform: uppercase;
+	padding: 20px;
+	font-size: 20px;
+}
+#publicidade p {
+	margin-top: 40px;
+}
+#publicidade a {
+	margin-top: 50px;
+}
+.fundoPreto {
+	background: #000;
+	color: #FFF;
+	padding: 10px;
+}
+.read {
+	margin-top: 20px;
+	color: #FFF;
+	background: #0ba39c;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#destaques {
+	width: 90%;
+	min-height: 300px;
+	margin: 0 auto;	
+}
+#bigodes {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+#bigodes ul {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+#bigodes ul li {
+	border: 2px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	list-style-type: none;
+}
+#rodape {
+	width: 90%;
+	min-height: 100px;
+	margin: 0 auto;
+	background: #000;	
+}
+#logo {
+	
+}
+#menu {
+	width: 70%;
+	min-height: 50px;
+	margin: 0 auto;
+}
+#menu ul {
+	list-style-type: none;
+}
+#menu ul li {
+	display: inline-block;
+	line-height: 50px;
+}
+#menu ul li a {
+	padding: 20px;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold; 
+}
+#menu ul li a:hover {
+	color: #0ba39c;
+}
+#menu ul li:first-child {
+	color: #0ba39c;
+}
+#esquerda {
+	width: 50%;
+	height: 100px;
+	line-height: 100px;
+	background: #252525;
+	float: left;
+	text-align: center;
+	color: #FFF;
+}
+#direita {
+	width: 50%;
+	height: 100px;
+	line-height: 100px;
+	background: #252525;
+	float: right;
+	text-align: center;
+}
+#direita ul {
+	list-style-type: none;
+}
+#direita ul li {
+	display: inline-block;
+	text-align: center;
+	padding: 8px;
+}
